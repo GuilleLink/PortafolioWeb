@@ -8,6 +8,7 @@ import Disney from "./Components/Disney/Disney";
 import Movies from "./Components/Movies/Movies";
 import Sagradafamilia from "./Components/Sagradafamilia/Sagradafamilia";
 import Dreams from "./Components/Dreams/Dreams";
+import "./index.scss";
 
 const App = () => {
   return( 

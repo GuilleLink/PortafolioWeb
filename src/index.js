@@ -6,6 +6,7 @@ import Christmas from "./Components/Christmas/Christmas";
 import Subheader from "./Components/Subheader/Subheader";
 import Disney from "./Components/Disney/Disney";
 import Movies from "./Components/Movies/Movies";
+import Sagradafamilia from "./Components/Sagradafamilia/Sagradafamilia";
 
 const App = () => {
   return( 
@@ -14,6 +15,7 @@ const App = () => {
       <Subheader title='Places I Like To Visit'/>
       <Disney />
       <Subheader title='Places I Want To Visit'/>
+      <Sagradafamilia />
       <Subheader title='Favourite Movies & Series'/>
       <Movies />
       <Subheader title='Favourite Holiday'/>

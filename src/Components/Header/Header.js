@@ -10,7 +10,7 @@ class Header extends Component{
 
         return(
             <div className='all-wrapped'>
-                <button >Hola</button>   
+                <div className='header-text'>Juan Guillermo Sandoval In A Nutshell</div>   
             </div>
         )
     }

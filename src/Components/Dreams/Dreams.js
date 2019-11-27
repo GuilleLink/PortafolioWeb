@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './headerstyle.scss';
+import './dreamsstyle.scss';
 
-class Header extends Component{
+class Dreams extends Component{
     constructor(props){
         super(props);
     }
@@ -9,11 +9,18 @@ class Header extends Component{
     render(){
 
         return(
-            <div className='all-wrapped'>
-                <button >Hola</button>   
+            <div className='dreams-container'>
+                <div className='dreams-swim'>                  
+                </div>
+                <div className='dreams-car'>                  
+                </div>
+                <div className='dream-swim'>                  
+                </div>
+                <div className='dream-race'>                  
+                </div>                
             </div>
         )
     }
 }
 
-export default Header
+export default Dreams

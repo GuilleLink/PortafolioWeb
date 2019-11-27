@@ -7,24 +7,24 @@ class Footer extends Component{
     }
 
     redirectFacebook(){
-        //https://www.facebook.com/guillermo.sandoval.161214
+        window.location.href = "https://www.facebook.com/guillermo.sandoval.161214";
     }
 
     redirectLikedIn(){
-        //https://www.linkedin.com/in/juan-guillermo-sandoval-582175193/
+        window.location.href = "https://www.linkedin.com/in/juan-guillermo-sandoval-582175193/";
     }
 
     redirectInstagram(){
-        //https://www.instagram.com/guillermo1612/?hl=es-la
+        window.location.href = "https://www.instagram.com/guillermo1612/?hl=es-la";
     }
 
     render(){
 
         return(
             <div className='all-wrapped-bottom'>
-                <button className='facebook-button'></button> 
-                <button className='linkedin-button'></button>
-                <button className='instagram-button'></button>
+                <button className='facebook-button' onClick={() => {this.redirectFacebook()}}></button> 
+                <button className='linkedin-button' onClick={() => {this.redirectLikedIn()}}></button>
+                <button className='instagram-button' onClick={() => {this.redirectInstagram()}}></button>
             </div>
         )
     }

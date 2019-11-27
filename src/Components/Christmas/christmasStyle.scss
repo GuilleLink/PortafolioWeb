@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
 .christmas-background{
     position: relative;
@@ -43,3 +43,19 @@
     color: rgba(0, 0, 0, 0.795);
     text-align: center;
 }
+
+.christmas-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Mountains of Christmas";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sky {
+    height: 100%;
+    color: #FFF;
+    display: block;
+  }
